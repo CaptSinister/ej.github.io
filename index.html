@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ernesto Rodriguez</title>
+    <link rel="icon" type="image/png" href="./images/favicon.png">
+    <link rel="stylesheet" href="styles.css">
+    <script src="http://www.x3dom.org/release/x3dom.js"></script>
+    <link rel="stylesheet" href="http://www.x3dom.org/release/x3dom.css">
+
+</head>
+
+<body>
+    <header>
+        
+        <h1>Welcome to My Portfolio</h1>
+        <nav>
+            <ul>
+                <li><a href="#about">About</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section id="about">
+            <h2>About Me</h2>
+            <p>Hello, World.<br>
+                My name is Ernesto J. Rodriguez. Some of my hobbies include playing video games, 
+                reading comics and manga, and tinkering with tech.
+                I hold a B.S. in Information Technology, and I'm currently working on earning my CompTIA A+ certification. 
+                I'm a self-taught web developer, continually learning more about both front-end and back-end development.<br><br>
+
+                Every day is an opportunity to better yourself—and with that mindset, I plan to make my mark in the dev space one day!<br><br>
+
+                Lately, I've been really into '90s anime, and I've caught the bug for PSX games—especially anything touched by Yasumi Matsuno. 
+                He's a Japanese video game designer known for his work on Final Fantasy Tactics (which could be argued its his magnum opus), 
+                Tactics Ogre, and most recently, I've been hooked on Vagrant Story.
+
+                <br><br> Programming Languages:
+            <ul>
+                <li>HTML/CSS</li>
+                <li>Python</li>
+                <li>JavaScript</li>
+                <li>Java</li>
+            </ul>
+            </p>
+        </section>
+        <section id="projects">
+            <h2>My Projects</h2>
+            <p>Here are some of my projects hosted on GitHub:</p>
+            <ul>
+                <li><a href="https://github.com" target="_blank">Project 1</a></li>
+                <li><a href="https://github.com" target="_blank">Project 2</a></li>
+                <li><a href="https://github.com" target="_blank">Project 3</a></li>
+            </ul>
+            <p>More projects coming soon!</p>
+        </section>
+        <section id="contact">
+            <h2>Contact Me</h2>
+            <p>If you'd like to get in touch, feel free to reach out through any of the following methods:</p>
+            <ul>
+                <li>Email: <a href="mailto:ernesto.rodriguez94@gmail.com">ernesto.rodriguez94@gmail.com</a></li>
+                <li>LinkedIn: <a href="https://www.linkedin.com/in/ernesto-rod/"
+                        target="_blank">https://www.linkedin.com/in/ernesto-rod</a></li>
+                <li>GitHub: <a href="https://github.com/CaptSinister" target="_blank">https://github.com/CaptSinister</a></li>
+                </ul>
+                <p>I'm open to freelance opportunities and collaborations. Let's create something amazing together!</p>
+                </section>
+                
+                
+                </main>
+                
+                
+                <!-- This section uses X3D, a standard for 3D graphics on the web, to display a simple 3D box. 
+                         The x3d element defines the 3D canvas, and the scene contains the 3D objects. -->
+                
+                <x3d width="600px" height="300px">
+                    <scene>
+                        <background skyColor="0.8 0.5 0.3, 0.2 0.3 0.5" skyAngle="1.57"></background>
+                
+                
+                        <transform translation="-.85 2 0">
+                            <shape>
+                                <appearance>
+                                    <material diffuseColor="1 0.6 0"></material>
+                                </appearance>
+                                <text string="This is a PeePee">
+                                    <fontstyle size="1" justify="MIDDLE"></fontstyle>
+                                </text>
+                            </shape>
+                        </transform>
+                
+                        <transform translation="-.85 2 0" rotation="0 1 0 3.1416">
+                            <shape>
+                                <appearance>
+                                    <material diffuseColor="1 0.9 0"></material>
+                                </appearance>
+                                <text string="This is a PeePee">
+                                    <fontstyle size="1" justify="MIDDLE"></fontstyle>
+                                </text>
+                            </shape>
+                        </transform>
+                
+                        <!--
+                
+                                    I am using X3DOM to create a pee pee 
+                                    
+                                    Tip -> will be using the cone
+                                        -  Will attempt to make the tip round 
+                                           and not pointy like the defualt cone values bc not real 
+                                           plus yikes for both parties
+                
+                                    Shaft -> will be using the Cylinder 
+                                        - This should need much editing but we will see what we can do to it 
+                                          make more vainy? omg or a droop to it LMAO
+                                    
+                                    Bollas - will be using 2 sphares and make this be side by side             
+                                
+                                -->
+                        <!--Left Nut-->
+                        <transform translation="-6 0 -.85">
+                            <shape>
+                                <appearance>
+                                    <material diffuseColor="0.8 0.4 0.3"></material>
+                                </appearance>
+                                <sphere radius="1.45"></sphere>
+                            </shape>
+                        </transform>
+
+                        <!--Right Nut-->
+                        <transform translation="-6 0 .85">
+                            <shape>
+                                <appearance>
+                                    <material diffuseColor="0.8 0.4 0.3"></material>
+                                </appearance>
+                                <sphere radius="1.45"></sphere>
+                            </shape>
+                        </transform>
+
+                        <!--Shaft-->
+                        <transform translation="-1.80 -.06 0" rotation="-.5 1 9 1.57">
+                            <shape>
+                                <appearance>
+                                    <material diffuseColor="0.8 0.4 0.3"></material>
+                                </appearance>
+                                <cylinder height="10" radius=".85" ></cylinder>
+                            </shape>
+                        </transform>
+                        
+                        <transform translation="3 -.2 -.325" scale="2.45 1.65 1.75" >
+                            <shape>
+                              <appearance>
+                                <material diffuseColor="0.9 0.4 0.5"></material>
+                              </appearance>
+                              <sphere radius="0.8"></sphere>
+                            </shape>
+                          </transform>
+                          
+
+                
+                    </scene>
+                
+                </x3d>
+                
+                <br>
+                <x3d width="600px" height="300px" style="border:5px solid rgb(0, 0, 0);">    
+                    <scene>
+                        <background skyColor="0.8 0.5 0.3, 0.2 0.3 0.5" skyAngle="1.57"></background>
+
+
+                    </scene>
+
+                </x3d>
+                
+                
+                
+                </body>
+                
+                </html>
