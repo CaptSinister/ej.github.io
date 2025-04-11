@@ -2,12 +2,12 @@
 web server to showcase projects and tinker 
 ### 1. Polish the Content
 Fix typos and grammar issues:
- - [ ] - "opertunity" → "opportunity"
- - [ ] - "Laguages" → "Languages"
- - [ ] - "Final Fantasyt Tactics" → "Final Fantasy Tactics"
- - [ ] - "Tactics orge" → "Tactics Ogre"
- - [ ] - "ive" → "I've"
- - [ ] - Break long paragraphs into smaller, more readable chunks.
+ - [X] - "opertunity" → "opportunity"
+ - [X] - "Laguages" → "Languages"
+ - [X] - "Final Fantasyt Tactics" → "Final Fantasy Tactics"
+ - [X] - "Tactics orge" → "Tactics Ogre"
+ - [X] - "ive" → "I've"
+ - [X] - Break long paragraphs into smaller, more readable chunks.
        
 ### 2. Add More Visual Appeal
  - [ ] Include images or icons for your hobbies, projects, or skills.
