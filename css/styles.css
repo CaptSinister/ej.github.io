@@ -13,7 +13,7 @@
         color: #e3fba1; /* Light green text color */
     }
     
-    /* Styling a container element */
+    /* Styling container element */
     .container {
         max-width: 800px; /* Limits the width of the container */
         margin: auto; /* Centers the container horizontally */
@@ -37,6 +37,6 @@
     
     /* Styling the button when hovered */
     .button:hover {
-        background-color: hsl(303, 56%, 85%); 
+        background-color: rgb(242, 209, 240); 
          /* Changes the background color to blue when the mouse is over the button */
     }
