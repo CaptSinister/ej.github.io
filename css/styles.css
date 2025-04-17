@@ -32,10 +32,11 @@
         text-decoration: none; /* Removes underline from the button text */
         border-radius: 15px; /* Rounds the corners of the button */
         transition: background-color 0.3s ease; /* Smoothly changes the background color when hovered */
-        cursor:hover; /* Changes the cursor to a pointer when hovering over the button */
+        cursor:pointer; /* Changes the cursor to a pointer when hovering over the button */
     }
     
     /* Styling the button when hovered */
     .button:hover {
-        background-color: #0056b3; /* Changes the background color to blue when the mouse is over the button */
+        background-color: hsl(303, 56%, 85%); 
+         /* Changes the background color to blue when the mouse is over the button */
     }
