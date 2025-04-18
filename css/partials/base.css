@@ -11,3 +11,12 @@ body {
     color: #e3fba1;
     
 }
+
+.projectFontColor {
+    color: #e3fba1;
+    
+}
+
+a:link {
+    color: rgba(31, 236, 123, 0.904);
+  }
