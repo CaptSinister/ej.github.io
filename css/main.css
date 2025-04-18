@@ -1,5 +1,5 @@
-@import '/css/partials/_reset.css';
-@import '/css/partials/_base.css';
-@import '/css/partials/_navbar.css';
-@import '/css/partials/_layout.css';
-@import '/css/partials/_components.css';
+@import './partials/_reset.css';
+@import './partials/_base.css';
+@import './partials/_navbar.css';
+@import './partials/_layout.css';
+@import './partials/_components.css';
