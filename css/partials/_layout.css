@@ -1,0 +1,19 @@
+/* Layout CSS */
+.container {
+    max-width: 800px;
+    margin: auto;
+    background: #006d5d;
+    padding: 0px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(80, 0, 0, 0.91);
+}
+
+.container_AboutMe {
+    max-width: 800px;
+    margin: auto;
+    background: #006d5d;
+    padding: 0px;
+    padding-left: 8px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(80, 0, 0, 0.91);
+}

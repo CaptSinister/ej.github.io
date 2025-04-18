@@ -1,0 +1,55 @@
+.navbar {
+    backdrop-filter: blur(10px);
+    background-color: rgba(255, 255, 255, 0.1);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+    color: #e3fba1;
+    padding: 1rem 2rem;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    background: #006d5d;
+    padding: 1rem 2rem;
+    box-shadow: none;
+    transition: box-shadow 0.3s ease;
+}
+
+.nav-links a {
+    position: relative;
+    text-decoration: none;
+    color: #e3fba1;
+    padding: 0.5rem;
+}
+
+.nav-links a::after {
+    content: "";
+    position: absolute;
+    width: 0;
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    background-color: #e3fba1;
+    transition: width 0.3s;
+}
+
+.nav-links a:hover::after {
+    width: 100%;
+}
+
+.left, .right {
+    display: flex;
+    gap: 1.6rem;
+}
+
+.logo {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+body.scrolled .navbar {
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
